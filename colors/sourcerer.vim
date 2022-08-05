@@ -42,7 +42,7 @@ hi MoreMsg      guifg=#2e8b57 guibg=NONE    gui=bold
 hi NonText      guifg=#404050 guibg=NONE    gui=NONE
 
 " completions
-hi Pmenu        guifg=#A8A8A8 guibg=#3A3A3A
+hi Pmenu        guifg=#A8A8A8 guibg=#212121
 hi PmenuSel     guifg=#000000 guibg=#528B8B
 hi PmenuSbar    guifg=#000000 guibg=#528B8B
 hi PmenuThumb   guifg=#000000 guibg=#528B8B
@@ -58,8 +58,8 @@ hi SpellRare    guisp=#ff00ff gui=undercurl
 hi StatusLine   guifg=#000000 guibg=#808070 gui=bold
 hi StatusLineNC guifg=#000000 guibg=#404c4c gui=italic
 hi VertSplit    guifg=#404c4c guibg=#404c4c gui=NONE
-hi TabLine      guifg=fg      guibg=#d3d3d3 gui=underline
-hi TabLineFill  guifg=fg      guibg=NONE    gui=reverse
+hi TabLine      guifg=#000000 guibg=#808070 gui=bold
+hi TabLineFill  guifg=#808070 guibg=NONE    gui=reverse
 hi TabLineSel   guifg=fg      guibg=NONE    gui=bold
 hi Title        guifg=#528b8b guibg=NONE    gui=bold
 hi Visual       guifg=#000000 guibg=#6688aa gui=NONE
@@ -68,7 +68,7 @@ hi WildMenu     guifg=#000000 guibg=#87ceeb gui=NONE
 hi ExtraWhitespace guifg=fg   guibg=#528b8b gui=NONE
 
 "  syntax highlighting
-hi Comment      guifg=#686858 gui=italic
+hi Comment      guifg=#9f9f8f gui=italic
 hi Boolean      guifg=#ff9800 gui=NONE
 hi String       guifg=#779b70 gui=NONE
 hi Identifier   guifg=#9ebac2 gui=NONE
